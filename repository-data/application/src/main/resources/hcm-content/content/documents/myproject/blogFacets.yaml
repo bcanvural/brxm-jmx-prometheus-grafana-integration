@@ -1,0 +1,15 @@
+/content/documents/myproject/blogFacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: 78817181-df2b-4db4-bf3f-9cdc237a1b57
+  hippofacnav:facetnodenames: [Authors, Categories, Tags, Date]
+  hippofacnav:facets: ['myproject:authornames', 'myproject:categories', 'hippostd:tags',
+    "myproject:publicationdate$[\n                {name:'Last 7 days',resolution:'day',\
+      \ begin:-6, end:1},\n                {name:'Last month',resolution:'day', begin:-30,\
+      \ end:1},\n                {name:'Last 3 months',resolution:'day', begin:-91,\
+      \ end:1},\n                {name:'Last 6 months',resolution:'day', begin:-182,\
+      \ end:1},\n                {name:'Last year',resolution:'day', begin:-365, end:1}\n\
+      \                ]"]
+  hippofacnav:filters: ['jcr:primaryType = myproject:blogpost']
+  hippofacnav:limit: 100
+  hippofacnav:sortby: ['myproject:publicationdate']
+  hippofacnav:sortorder: [descending]

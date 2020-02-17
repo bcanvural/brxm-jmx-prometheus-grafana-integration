@@ -1,0 +1,23 @@
+/content/documents/administration/labels/blog:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: c80e9800-13de-46e4-87ed-56de0ad9066c
+  hippo:name: Blog
+  /blog:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f4b67855-1bbb-4ce2-a39a-00c1eaa8531c
+    hippo:availability: [live, preview]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2014-08-21T22:52:25.399+02:00
+    hippostdpubwf:lastModificationDate: 2014-08-21T22:58:03.243+02:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2014-08-21T22:58:05.602+02:00
+    resourcebundle:descriptions: ['Header used in "more blogs from same author", prefix
+        to the author name.', Message displayed when no other blogs from same author
+        were found., '', '']
+    resourcebundle:id: essentials.blog
+    resourcebundle:keys: [blog.moreby, blog.notfound, blog.read.post, blog.back.to.list]
+    resourcebundle:messages: [More by, No other posts found., '> Read the entire blog
+        post', < Back to blog posts]

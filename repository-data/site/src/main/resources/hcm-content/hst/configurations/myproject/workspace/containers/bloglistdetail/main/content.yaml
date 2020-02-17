@@ -1,0 +1,8 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/bloglistdetail/main/content:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogComponent
+  hst:label: Blog List
+  hst:parameternames: [documentTypes, sortField, sortOrder, showPagination, includeSubtypes,
+    pageSize, path]
+  hst:parametervalues: ['myproject:blogpost', '', desc, 'on', 'off', '2', '']
+  hst:template: blog-list

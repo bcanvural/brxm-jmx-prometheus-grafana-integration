@@ -1,0 +1,238 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/myproject:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        myproject:content: Content
+        myproject:image: Image
+        myproject:link: Link
+        myproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        myproject:content: Inhoud
+        myproject:image: Afbeelding
+        myproject:link: Link
+        myproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        myproject:content: Contenu
+        myproject:image: Image
+        myproject:link: Lien
+        myproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        myproject:content: Inhalt
+        myproject:image: Abbildung
+        myproject:link: Link
+        myproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/myproject:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        myproject:author: Author
+        myproject:content: Content
+        myproject:date: Date
+        myproject:image: Image
+        myproject:introduction: Introduction
+        myproject:location: Location
+        myproject:source: Source
+        myproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        myproject:author: Auteur
+        myproject:content: Inhoud
+        myproject:date: Datum
+        myproject:image: Afbeelding
+        myproject:introduction: Introductie
+        myproject:location: Locatie
+        myproject:source: Bron
+        myproject:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        myproject:author: Verfasser
+        myproject:content: Inhalt
+        myproject:date: Datum
+        myproject:image: Abbildung
+        myproject:introduction: Einführung
+        myproject:location: Standort
+        myproject:source: Quelle
+        myproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        myproject:author: Auteur
+        myproject:content: Contenu
+        myproject:date: Date
+        myproject:image: Image
+        myproject:introduction: Introduction
+        myproject:location: Lieu
+        myproject:source: Source
+        myproject:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/myproject:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blog Post
+        myproject:authors: Author(s)
+        myproject:authors#hint: Link to author document(s)
+        myproject:categories: Categories
+        myproject:content: Content
+        myproject:introduction: Introduction
+        myproject:publicationdate: Publication Date
+        myproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blogpost
+        myproject:authors: Auteur(s)
+        myproject:authors#hint: Link naar auteur document(en)
+        myproject:categories: Categorieën
+        myproject:content: Inhoud
+        myproject:introduction: Introductie
+        myproject:publicationdate: Publicatiedatum
+        myproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Post blog
+        myproject:authors: Auteur(s)
+        myproject:authors#hint: Lien vers le(s) document(s) de l'auteur
+        myproject:categories: Catégories
+        myproject:content: Contenu
+        myproject:introduction: Introduction
+        myproject:publicationdate: Date de publication
+        myproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blog-Post
+        myproject:authors: Verfasser
+        myproject:authors#hint: Link zu Verfasserdokument(en)
+        myproject:categories: Kategorien
+        myproject:content: Inhalt
+        myproject:introduction: Einführung
+        myproject:publicationdate: Publikationsdatum
+        myproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/myproject:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Author
+        myproject:accounts: Accounts
+        myproject:accounts#hint: External social media accounts
+        myproject:content: Description
+        myproject:content#hint: Information about the author
+        myproject:fullname: Name
+        myproject:fullname#hint: Full name
+        myproject:photo: Photo
+        myproject:photo#hint: Photo of the author
+        myproject:role: Role
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Auteur
+        myproject:accounts: Accounts
+        myproject:accounts#hint: Externe social media accounts
+        myproject:content: Beschrijving
+        myproject:content#hint: Informatie over de auteur
+        myproject:fullname: Naam
+        myproject:fullname#hint: Volledige naam
+        myproject:photo: Foto
+        myproject:photo#hint: Foto van de auteur
+        myproject:role: Rol
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Auteur
+        myproject:accounts: Konten
+        myproject:accounts#hint: Comptes médias sociaux externes
+        myproject:content: Description
+        myproject:content#hint: Informations sur l'auteur
+        myproject:fullname: Nom
+        myproject:fullname#hint: Nom complet
+        myproject:photo: Photo
+        myproject:photo#hint: Photo de l'auteur
+        myproject:role: Rôle
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Verfasser
+        myproject:accounts: Comptes
+        myproject:accounts#hint: Externe Konten soziale Medien
+        myproject:content: Beschreibung
+        myproject:content#hint: Informationen über den Verfasser
+        myproject:fullname: Name
+        myproject:fullname#hint: Vollständiger Name
+        myproject:photo: Foto
+        myproject:photo#hint: Foto des Verfassers
+        myproject:role: Rolle
+    /hippo:configuration/hippo:translations/hippo:types/myproject:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Account (Compound)
+        myproject:link: Link
+        myproject:link#hint: External link to the account
+        myproject:type: Type
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Account (Compound)
+        myproject:link: Link
+        myproject:link#hint: Externe link naar het account
+        myproject:type: Soort
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Compte (Compound)
+        myproject:link: Lien
+        myproject:link#hint: Lien externe vers le compte
+        myproject:type: Type
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Konto (Compound)
+        myproject:link: Link
+        myproject:link#hint: Externer Link zum Konto
+        myproject:type: Art
+    /hippo:configuration/hippo:translations/hippo:types/myproject:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        myproject:content: Content
+        myproject:date: Start date
+        myproject:enddate: End date
+        myproject:image: Image
+        myproject:introduction: Introduction
+        myproject:location: Location
+        myproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Evenement
+        myproject:content: Inhoud
+        myproject:date: Startdatum
+        myproject:enddate: Einddatum
+        myproject:image: Afbeelding
+        myproject:introduction: Introductie
+        myproject:location: Locatie
+        myproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Événement
+        myproject:content: Contenu
+        myproject:date: Date de début
+        myproject:enddate: Date de fin
+        myproject:image: Image
+        myproject:introduction: Introduction
+        myproject:location: Lieu
+        myproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        myproject:content: Inhalt
+        myproject:date: Startdatum
+        myproject:enddate: Enddatum
+        myproject:image: Abbildung
+        myproject:introduction: Einführung
+        myproject:location: Standort
+        myproject:title: Titel

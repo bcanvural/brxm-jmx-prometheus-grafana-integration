@@ -1,0 +1,46 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hst:default/hst:catalog/essentials-catalog:
+      jcr:primaryType: hst:containeritempackage
+      /banner:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+        hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+        hst:label: Banner
+        hst:template: essentials-banner
+      /carousel:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+        hst:iconpath: images/essentials/catalog-component-icons/carousel.svg
+        hst:label: Carousel
+        hst:template: essentials-carousel
+      /newslist:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/news-list.svg
+        hst:label: News List
+        hst:template: newslist-main-newslist
+      /facets:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/facets.svg
+        hst:label: Facets
+        hst:template: blog-facet
+      /bloglist:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogComponent
+        hst:iconpath: images/essentials/catalog-component-icons/blog-list.svg
+        hst:label: Blog List
+        hst:template: blog-list
+      /blogauthorposts:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogAuthorPostsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/blogposts-by-author.svg
+        hst:label: Blog Posts by Author
+        hst:template: blog-author-posts
+      /eventslist:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsEventsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/events-list.svg
+        hst:label: Event List
+        hst:template: eventslist-main-eventslist
