@@ -2,5 +2,5 @@ startDelaySeconds: 0
 ssl: false
 lowercaseOutputName: false
 lowercaseOutputLabelNames: false
-whitelistObjectNames: ["org.hippoecm.repository:type=Repository,name=statistics", "org.onehippo.hst:type=Caching,*", "org.onehippo.hst:type=SessionPool,*", "java.lang:type=Memory,*", "java.lang:type=Threading,*", "Catalina:*"]
+whitelistObjectNames: ["org.hippoecm.repository:type=Repository,name=statistics", "org.onehippo.hst:type=Caching,*", "org.onehippo.hst:type=SessionPool,*", "java.lang:type=Memory,*", "java.lang:type=Threading,*", "Catalina:*", "net.sf.ehcache:*"]
 # Full config.yaml example at https://github.com/prometheus/jmx_exporter
